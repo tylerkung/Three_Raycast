@@ -1,0 +1,17 @@
+body::after{
+	content: '';
+	background-image: url('https://www.tyler-kung.com/img/noise.gif');
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: .02;
+	/* opacity: 0; */
+	z-index: 9999;
+	pointer-events: none;
+}
+
+body{
+	margin: 0;
+}
